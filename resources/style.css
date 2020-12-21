@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  width: 800px;
+  width: 850px;
   margin: 0 auto;
   background-color: whitesmoke;
 }
@@ -55,6 +55,8 @@ header {
 display: flex;
 justify-content: space-between;
 align-items: center;
+height: 5rem;
+margin-bottom: 2rem;
 }
 
 ul {
@@ -68,6 +70,32 @@ li {
 }
 
 /* About me section */
+.about-me {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 3rem;
+}
+
+.information {
+  grid-column: 1 / span 2;
+}
+
+.pic {
+  grid-column: 3 / span 1;
+  padding-top: 1rem;
+  padding-left: 2.5rem;
+}
+
+.pic img {
+  height: 16.5rem;
+  width: auto;
+  border-radius: 15px;
+}
+
+/* Skills section */
+
+
+
 
 img {
   width: 50px;
