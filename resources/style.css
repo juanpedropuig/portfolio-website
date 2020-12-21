@@ -93,11 +93,13 @@ li {
 }
 
 /* Skills section */
-
-
-
-
-img {
+.skills img {
   width: 50px;
+  height: auto;
+  padding-right: 0.4rem;
+}
+
+#css {
+  width: 41px;
   height: auto;
 }
