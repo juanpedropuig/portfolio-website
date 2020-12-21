@@ -31,6 +31,7 @@ html {
   font-family: 'Proza Libre';
   font-weight: 400;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -101,5 +102,21 @@ li {
 
 #css {
   width: 41px;
+  height: auto;
+}
+
+/* Contact site */
+.links {
+  margin-left: 1rem;
+}
+
+.links img {
+  width: 30px;
+  height: auto;
+  padding-right: 0.5rem;
+}
+
+#gmail {
+  width: 40px;
   height: auto;
 }
