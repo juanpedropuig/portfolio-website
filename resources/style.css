@@ -105,6 +105,19 @@ li {
   height: auto;
 }
 
+/* Project site */
+.project {
+  cursor: pointer;
+}
+
+.project-title {
+  display: inline;
+}
+
+.project img {
+  width: 25rem;
+}
+
 /* Contact site */
 .links {
   margin-left: 1rem;
