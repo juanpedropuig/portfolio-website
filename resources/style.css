@@ -36,6 +36,7 @@ html {
 body {
   width: 800px;
   margin: 0 auto;
+  background-color: whitesmoke;
 }
 
 p,
@@ -43,7 +44,30 @@ li {
   font-family: 'Open Sans';
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 /* Header section */
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+ul {
+  display: inline-flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+li {
+  padding-right: 1rem;
+}
+
+/* About me section */
 
 img {
   width: 50px;
